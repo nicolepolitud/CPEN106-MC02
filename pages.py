@@ -250,7 +250,7 @@ def show_dashboard():
 
 
     # Load data
-    df = pd.read_csv("Spreadmeat_WQxVAxMF.csv")
+    df = pd.read_csv("dataset.csv")
 
     # Setup selections
     sites = ['All Sites'] + list(df["Site"].unique())
